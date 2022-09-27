@@ -59,7 +59,7 @@
           </ul>
         </div> 
           <!-- Button trigger modal -->
-          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#header-Modal">
+          <button type="button" class="btn btn-secondary px-4" data-bs-toggle="modal" data-bs-target="#header-Modal">
             Call us
           </button>
       </div>
@@ -70,39 +70,38 @@
     <section> <!--SLIDER-->
       <div class="container-xxl"> 
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button> 
-          </div>
           <div class="carousel-inner">
-            <div class="carousel-item active">
+            <div class="carousel-item active mb-5">
               <img src="./images/slider-1.png" class="d-block w-100" alt="cat-1">
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item mb-5">
               <img src="./images/slider-2.png" class="d-block w-100" alt="cat-2">
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item mb-5">
               <img src="./images/slider-3.png" class="d-block w-100" alt="cat-3">
             </div>
-            <div class="carousel-item active">
+            <div class="carousel-item mb-5">
               <img src="./images/slider-4.png" class="d-block w-100" alt="cat-4">
             </div>
-            <div class="carousel-item active">
+            <div class="carousel-item mb-5">
               <img src="./images/slider-5.png" class="d-block w-100" alt="cat-5">
             </div>
           </div>
-
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          <div class="carousel-indicators"> <!--за умовами домашньої роботи кнопочки мають бути поза межами слайдера-->
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active bg-black" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="btn bg-black" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="btn bg-black" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" class="btn bg-black" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" class="btn bg-black" aria-label="Slide 5"></button> 
+          </div>
         </div>
       </div>
     </section>
@@ -115,7 +114,7 @@
               <div class="accordion-item"> <!--Accordion-1-->
                 <h2 class="accordion-header" id="headingOne">
                   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    Цікавий факт про котів №1 
+                    Цікаві факти про котів №1 
                   </button>
                 </h2>
                 <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
@@ -127,7 +126,7 @@
               <div class="accordion-item"> <!--Accordion-2-->
                 <h2 class="accordion-header" id="headingTwo">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    Цікавий факт про котів №2 
+                    Цікаві факти про котів №2 
                   </button>
                 </h2>
                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
@@ -139,7 +138,7 @@
               <div class="accordion-item"> <!--Accordion-3-->
                 <h2 class="accordion-header" id="headingThree">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    Цікавий факт про котів №3 
+                    Цікаві факти про котів №3 
                   </button>
                 </h2>
                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
@@ -151,7 +150,7 @@
               <div class="accordion-item"> <!--Accordion-4-->
                 <h2 class="accordion-header" id="headingFour">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
-                    Цікавий факт про котів №4 
+                    Цікаві факти про котів №4 
                   </button>
                 </h2>
                 <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
@@ -234,22 +233,24 @@
       </div>
     </section>
 
-    </main>
+  </main>
   
   <footer> <!--Винесла в футер form зворотнього звязку та cards-->
     <section> <!--FORM-->
-      <div class="container-container-xxl">
-        <form class="row gy-2 gx-3 mx-auto w-75 my-4">
-          <div class="col-auto pt-4"><h5 class="text-success font-weight-bold">Callback form</h5></div>
-          <div class="col-auto pb-3">
+      <div class="container-container-xxl px-5">
+        <form class="row gy-2 gx-3 mx-auto w-50 my-5">
+          <div class="col-auto pt-4 mx-5">
+            <h5 class="text-success font-weight-bold">Callback form</h5>
+          </div>
+          <div class="col-auto pb-3 mr-5">
             <label class="sr-only" for="autoSizingInput"></label>
             <input type="text" class="form-control" id="autoSizingInput" placeholder="Name">
           </div>
-          <div class="col-auto pb-3">
+          <div class="col-auto pb-3 mr-5">
             <label class="sr-only" for="autoSizingInput"></label>
             <input type="tel" class="form-control" id="autoSizingInput" placeholder="Phone">
           </div>
-          <div class="col-auto pt-4">
+          <div class="col-auto pt-4 mr-0">
             <button type="submit" class="btn btn-primary rounded-pill bg-success">Submit</button>
           </div>
         </form>
@@ -342,7 +343,7 @@
   <!--Modal для ТАБ-->
   <!--ТАБ№1-->
   <div class="modal fade" id="breed1-tab-Modal" tabindex="-1" aria-labelledby="breed1-tab-Modal" aria-hidden="true">
-    <div class="modal-dialog modal-sm">
+    <div class="modal-dialog modal-md">
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -359,7 +360,7 @@
 
   <!--ТАБ№2-->
   <div class="modal fade" id="breed2-tab-Modal" tabindex="-1" aria-labelledby="breed2-tab-Modal" aria-hidden="true">
-    <div class="modal-dialog modal-sm">
+    <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -376,7 +377,7 @@
 
   <!--ТАБ№3-->
   <div class="modal fade" id="breed3-tab-Modal" tabindex="-1" aria-labelledby="breed3-tab-Modal" aria-hidden="true">
-    <div class="modal-dialog modal-sm">
+    <div class="modal-dialog modal-xl">
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
